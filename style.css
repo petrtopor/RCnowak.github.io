@@ -1,0 +1,95 @@
+html {
+    background: #c4d3db url(./assets/bg-main.png) center top repeat-y;
+}
+
+body {
+    background: url(./assets/bg-shapes.png) center 174px no-repeat;
+    width: 100vw;
+    height:100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 211px;
+    margin: auto;
+    padding-top: 24px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 900px;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    width: 900px;
+    margin: auto;
+}
+
+.logo-wrapper {
+    margin-left: 8px;
+    flex-direction: column;
+}
+
+.logo-wrapper h1 {
+    font-family: "NeoSansProRegular", sans-serif;
+    font-size: 32px;
+    line-height: normal;
+    margin-top: 22px;
+    margin-bottom: 11px;
+}
+
+
+
+/* лого СС и it place */
+.it-place-logo {
+    height: 32px;
+}
+
+.ss-logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/* иконки соц сетей */
+.icon:before {
+    content: ' ';
+    vertical-align: middle;
+    display: inline-block;
+    background-image: url(./assets/sprite.svg);
+    background-repeat: no-repeat;
+    background-size: 34.6em 154.7em;
+    width: 4.9em;
+    height: 4.9em;
+    font-size: 10px;
+}
+.icon:hover {
+    cursor: pointer;
+}
+.facebook:before {
+    background-position: 0em -83.2em;
+}
+.twit:before {
+    background-position: 0em -134.7em;
+}
+.vk:before {
+    background-position: 0em -144.7em;
+}
+
+
+/* блок с контактами */
+.contacts-info .phone {
+    font-size: 26px;
+}
+.contacts-info .phone:hover {
+    color: #ff5302;
+    cursor: pointer;
+}
